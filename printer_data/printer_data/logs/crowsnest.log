@@ -1,0 +1,42 @@
+[01/12/24 19:16:28] crowsnest: crowsnest - A webcam Service for multiple Cams and Stream Services.
+[01/12/24 19:16:29] crowsnest: Version: v4.1.2-1-ge209d19
+[01/12/24 19:16:29] crowsnest: Prepare Startup ...
+[01/12/24 19:16:29] crowsnest: INFO: Host information:
+[01/12/24 19:16:29] crowsnest: Host Info: Distribution: Raspbian GNU/Linux 11 (bullseye)
+[01/12/24 19:16:29] crowsnest: Host Info: Release: MainsailOS release 1.2.1 (bullseye)
+[01/12/24 19:16:29] crowsnest: Host Info: Kernel: Linux 6.1.21-v8+ aarch64
+[01/12/24 19:16:29] crowsnest: Host Info: Model:  Raspberry Pi 4 Model B Rev 1.1
+[01/12/24 19:16:29] crowsnest: Host Info: Available CPU Cores: 4
+[01/12/24 19:16:29] crowsnest: Host Info: Available Memory: 3705524 kB
+[01/12/24 19:16:29] crowsnest: Host Info: Diskspace (avail. / total): 107G / 117G
+[01/12/24 19:16:29] crowsnest: INFO: Checking Dependencies
+[01/12/24 19:16:29] crowsnest: Dependency: 'crudini' found in /usr/bin/crudini.
+[01/12/24 19:16:29] crowsnest: Dependency: 'find' found in /usr/bin/find.
+[01/12/24 19:16:29] crowsnest: Dependency: 'xargs' found in /usr/bin/xargs.
+[01/12/24 19:16:29] crowsnest: Dependency: 'ustreamer' found in bin/ustreamer/ustreamer.
+[01/12/24 19:16:29] crowsnest: Dependency: 'camera-streamer' found in bin/camera-streamer/camera-streamer.
+[01/12/24 19:16:29] crowsnest: Version Control: ustreamer is up to date. (v5.38)
+[01/12/24 19:16:31] crowsnest: Version Control: camera-streamer is up to date. ((f0634f9))
+[01/12/24 19:16:31] crowsnest: INFO: Print Configfile: '/home/pi/printer_data/config/crowsnest.conf'
+[01/12/24 19:16:31] crowsnest:		[crowsnest]
+[01/12/24 19:16:31] crowsnest:		log_path: /home/pi/printer_data/logs/crowsnest.log
+[01/12/24 19:16:31] crowsnest:		log_level: verbose
+[01/12/24 19:16:31] crowsnest:		delete_log: true
+[01/12/24 19:16:31] crowsnest:		no_proxy: false
+[01/12/24 19:16:31] crowsnest:		
+[01/12/24 19:16:31] crowsnest:		[cam 1]
+[01/12/24 19:16:31] crowsnest:		mode: camera-streamer
+[01/12/24 19:16:31] crowsnest:		
+[01/12/24 19:16:31] crowsnest:		enable_rtsp: true
+[01/12/24 19:16:31] crowsnest:		rtsp_port: 8554
+[01/12/24 19:16:31] crowsnest:		port: 8080
+[01/12/24 19:16:31] crowsnest:		device: /base/soc/i2c0mux/i2c@1/ov5647@36
+[01/12/24 19:16:31] crowsnest:		resolution: 960x720
+[01/12/24 19:16:31] crowsnest:		max_fps: 15
+[01/12/24 19:16:31] crowsnest: INFO: Detect available Devices
+[01/12/24 19:16:31] crowsnest: INFO: Found 1 total available Device(s)
+[01/12/24 19:16:31] crowsnest: Detected 'libcamera' device -> /base/soc/i2c0mux/i2c@1/ov5647@36
+[01/12/24 19:16:31] crowsnest: Try to start configured Cams / Services...
+[01/12/24 19:16:32] crowsnest: INFO: Configuration of Section [cam 1] looks good. Continue ...
+[01/12/24 19:16:34] crowsnest: Starting camera-streamer with Device /base/soc/i2c0mux/i2c@1/ov5647@36 ...
+[01/12/24 19:16:34] crowsnest:  ... Done!
