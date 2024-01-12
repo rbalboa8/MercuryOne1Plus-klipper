@@ -12501,3 +12501,152 @@ Resetting prediction variance 81.687: freq=50000042 diff=14420705 stddev=19724.9
 Klipper-backup is up to date
 
 
+Resetting prediction variance 82.671: freq=50053961 diff=12769889 stddev=50000.000
+Initialized empty Git repository in /home/pi/MercuryOne1Plus-klipper/.git/
+
+Resetting prediction variance 83.655: freq=50097562 diff=11391600 stddev=50000.000
+Resetting prediction variance 84.639: freq=50133454 diff=10210666 stddev=50000.000
+[main (root-commit) b29fe64] New backup from 12-01-24
+ 62 files changed, 403577 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 printer_data/printer_data/.moonraker.uuid
+ create mode 100644 printer_data/printer_data/backup/20230513T103747Z/config/moonraker.conf
+ create mode 120000 printer_data/printer_data/comms/klippy.serial
+ create mode 100644 printer_data/printer_data/config/.moonraker.conf.bkp
+ create mode 120000 printer_data/printer_data/config/.theme
+ create mode 120000 printer_data/printer_data/config/KAMP
+ create mode 100644 printer_data/printer_data/config/KAMP_Settings.cfg
+ create mode 100644 printer_data/printer_data/config/ZeroG_Purge.cfg
+ create mode 100644 printer_data/printer_data/config/crowsnest.conf
+ create mode 100644 printer_data/printer_data/config/led_effects.cfg
+ create mode 100644 printer_data/printer_data/config/macros.cfg
+ create mode 120000 printer_data/printer_data/config/mainsail.cfg
+ create mode 100644 printer_data/printer_data/config/moonraker.conf
+ create mode 100644 printer_data/printer_data/config/printer-20230707_154020.cfg
+ create mode 100644 printer_data/printer_data/config/printer-20230707_161306.cfg
+ create mode 100644 printer_data/printer_data/config/printer-20230911_100709.cfg
+ create mode 100644 printer_data/printer_data/config/printer-20231208_150835.cfg
+ create mode 100644 printer_data/printer_data/config/printer.cfg
+ create mode 100644 printer_data/printer_data/config/sonar.conf
+ create mode 120000 printer_data/printer_data/config/timelapse.cfg
+ create mode 100644 printer_data/printer_data/database/data.mdb
+ create mode 100644 printer_data/printer_data/database/lock.mdb
+ create mode 100644 printer_data/printer_data/gcodes/.thumbs/Cube_0.2mm_PETG_11m6s-32x32.png
+ create mode 100644 printer_data/printer_data/gcodes/.thumbs/Cube_0.2mm_PETG_11m6s-400x300.png
+ create mode 100644 printer_data/printer_data/gcodes/.thumbs/Cube_0.2mm_PETG_13m21s-32x32.png
+ create mode 100644 printer_data/printer_data/gcodes/.thumbs/Cube_0.2mm_PETG_13m21s-400x300.png
+ create mode 100644 printer_data/printer_data/gcodes/.thumbs/Cube_0.2mm_PETG_6m10s-32x32.png
+ create mode 100644 printer_data/printer_data/gcodes/.thumbs/Cube_0.2mm_PETG_6m10s-400x300.png
+ create mode 100644 printer_data/printer_data/gcodes/.thumbs/Cube_0.3mm_PETG_8m4s-32x32.png
+ create mode 100644 printer_data/printer_data/gcodes/.thumbs/Cube_0.3mm_PETG_8m4s-400x300.png
+ create mode 100644 printer_data/printer_data/gcodes/.thumbs/retraction_tower_0.08mm_PETG_4m11s-32x32.png
+ create mode 100644 printer_data/printer_data/gcodes/.thumbs/retraction_tower_0.08mm_PETG_4m11s-400x300.png
+ create mode 100644 printer_data/printer_data/gcodes/.thumbs/temperature_tower_0.08mm_PETG_1h57m-32x32.png
+ create mode 100644 printer_data/printer_data/gcodes/.thumbs/temperature_tower_0.08mm_PETG_1h57m-400x300.png
+ create mode 100644 printer_data/printer_data/gcodes/Cube_0.2mm_PETG_11m6s.gcode
+ create mode 100644 printer_data/printer_data/gcodes/Cube_0.2mm_PETG_13m21s.gcode
+ create mode 100644 printer_data/printer_data/gcodes/Cube_0.2mm_PETG_6m10s.gcode
+ create mode 100644 printer_data/printer_data/gcodes/Cube_0.3mm_PETG_8m4s.gcode
+ create mode 100644 printer_data/printer_data/gcodes/retraction_tower_0.08mm_PETG_4m11s.gcode
+ create mode 100644 printer_data/printer_data/gcodes/temperature_tower_0.08mm_PETG_1h57m.gcode
+ create mode 100644 printer_data/printer_data/logs/crowsnest.log
+ create mode 100644 printer_data/printer_data/logs/crowsnest.log.2023-12-30
+ create mode 100644 printer_data/printer_data/logs/crowsnest.log.2024-01-03
+ create mode 100644 printer_data/printer_data/logs/crowsnest.log.2024-01-12
+ create mode 100644 printer_data/printer_data/logs/klippy.log
+ create mode 100644 printer_data/printer_data/logs/klippy.log.2023-12-08
+ create mode 100644 printer_data/printer_data/logs/klippy.log.2023-12-09
+ create mode 100644 printer_data/printer_data/logs/klippy.log.2023-12-11
+ create mode 100644 printer_data/printer_data/logs/klippy.log.2023-12-30
+
+ create mode 100644 printer_data/printer_data/logs/klippy.log.2024-01-03
+ create mode 120000 printer_data/printer_data/logs/mainsail-access.log
+ create mode 120000 printer_data/printer_data/logs/mainsail-error.log
+ create mode 100644 printer_data/printer_data/logs/moonraker.log
+ create mode 100644 printer_data/printer_data/logs/moonraker.log.2023-12-30
+ create mode 100644 printer_data/printer_data/logs/moonraker.log.2024-01-03
+ create mode 120000 printer_data/printer_data/logs/sonar.log
+ create mode 100644 printer_data/printer_data/moonraker.asvc
+ create mode 100644 printer_data/printer_data/systemd/crowsnest.env
+ create mode 100644 printer_data/printer_data/systemd/klipper.env
+ create mode 100644 printer_data/printer_data/systemd/moonraker.env
+
+Resetting prediction variance 85.623: freq=50163396 diff=9173035 stddev=50000.000
+remote: Repository not found.
+
+fatal: repository 'https://github.com/rbalboa8/MercuryOne1Plus-klipper.git.git/' not found
+
+Command {update_git_script} finished
+
+Resetting prediction variance 86.608: freq=50188612 diff=8249553 stddev=50000.000
+Resetting prediction variance 87.593: freq=50210000 diff=7412102 stddev=50000.000
+Resetting prediction variance 88.578: freq=50228219 diff=6645452 stddev=50000.000
+Resetting prediction variance 89.562: freq=50243776 diff=5941554 stddev=50000.000
+Resetting prediction variance 90.547: freq=50257075 diff=5289005 stddev=50000.000
+Resetting prediction variance 91.531: freq=50268434 diff=4684337 stddev=50000.000
+Resetting prediction variance 92.515: freq=50278117 diff=4120175 stddev=50000.000
+Resetting prediction variance 93.500: freq=50286337 diff=3591592 stddev=50000.000
+Resetting prediction variance 94.484: freq=50293270 diff=3094793 stddev=50000.000
+Resetting prediction variance 95.468: freq=50299064 diff=2628161 stddev=50000.000
+Resetting prediction variance 96.453: freq=50303845 diff=2194193 stddev=50000.000
+Resetting prediction variance 97.437: freq=50307731 diff=1784871 stddev=50000.000
+Resetting prediction variance 98.422: freq=50310814 diff=1397215 stddev=50000.000
+Resetting prediction variance 99.407: freq=50313171 diff=1038302 stddev=50000.000
+Resetting prediction variance 100.391: freq=50314885 diff=701930 stddev=50000.000
+Resetting prediction variance 101.376: freq=50316019 diff=380897 stddev=50000.000
+Resetting prediction variance 104.333: freq=50316415 diff=-2916798 stddev=64184.107
+Resetting prediction variance 105.319: freq=50312026 diff=-5108221 stddev=50000.000
+Resetting prediction variance 106.307: freq=50304456 diff=-6864695 stddev=50000.000
+Resetting prediction variance 107.293: freq=50294430 diff=-8292964 stddev=50000.000
+Resetting prediction variance 108.278: freq=50282484 diff=-9392331 stddev=50000.000
+Resetting prediction variance 109.263: freq=50269131 diff=-10227480 stddev=50000.000
+Resetting prediction variance 110.248: freq=50254768 diff=-10836347 stddev=50000.000
+Resetting prediction variance 111.232: freq=50239728 diff=-11260918 stddev=50000.000
+Resetting prediction variance 112.217: freq=50224271 diff=-11525121 stddev=50000.000
+Resetting prediction variance 113.203: freq=50208618 diff=-11657705 stddev=50000.000
+Resetting prediction variance 114.187: freq=50192941 diff=-11678232 stddev=50000.000
+Resetting prediction variance 115.172: freq=50177384 diff=-11605580 stddev=50000.000
+Resetting prediction variance 116.156: freq=50162062 diff=-11458119 stddev=50000.000
+Resetting prediction variance 117.141: freq=50147063 diff=-11249030 stddev=50000.000
+Resetting prediction variance 118.126: freq=50132457 diff=-10987073 stddev=50000.000
+Resetting prediction variance 119.111: freq=50118299 diff=-10691878 stddev=50000.000
+Resetting prediction variance 120.096: freq=50104622 diff=-10361079 stddev=50000.000
+Resetting prediction variance 121.080: freq=50091459 diff=-10005343 stddev=50000.000
+Resetting prediction variance 122.064: freq=50078831 diff=-9636423 stddev=50000.000
+Resetting prediction variance 123.049: freq=50066745 diff=-9242314 stddev=50000.000
+Resetting prediction variance 124.034: freq=50055221 diff=-8853879 stddev=50000.000
+Resetting prediction variance 125.018: freq=50044244 diff=-8472843 stddev=50000.000
+Resetting prediction variance 126.002: freq=50033795 diff=-8077045 stddev=50000.000
+Resetting prediction variance 126.988: freq=50023885 diff=-7687615 stddev=50000.000
+Resetting prediction variance 127.972: freq=50014498 diff=-7301452 stddev=50000.000
+Resetting prediction variance 128.957: freq=50005623 diff=-6920019 stddev=50000.000
+Resetting prediction variance 129.941: freq=49997248 diff=-6548875 stddev=50000.000
+Resetting prediction variance 130.927: freq=49989355 diff=-6182460 stddev=50000.000
+Resetting prediction variance 131.912: freq=49981933 diff=-5829357 stddev=50000.000
+Resetting prediction variance 132.897: freq=49974960 diff=-5485610 stddev=50000.000
+Resetting prediction variance 133.881: freq=49968422 diff=-5155999 stddev=50000.000
+Resetting prediction variance 134.865: freq=49962298 diff=-4834636 stddev=50000.000
+Resetting prediction variance 135.850: freq=49956573 diff=-4525457 stddev=50000.000
+Resetting prediction variance 136.835: freq=49951231 diff=-4190607 stddev=50000.000
+Resetting prediction variance 137.819: freq=49946299 diff=-3829816 stddev=50000.000
+Resetting prediction variance 138.803: freq=49941803 diff=-3476472 stddev=50000.000
+Resetting prediction variance 139.788: freq=49937733 diff=-3144187 stddev=50000.000
+Resetting prediction variance 140.773: freq=49934061 diff=-2834837 stddev=50000.000
+Resetting prediction variance 141.757: freq=49930758 diff=-2545700 stddev=50000.000
+Resetting prediction variance 142.742: freq=49927798 diff=-2277069 stddev=50000.000
+Resetting prediction variance 143.726: freq=49925156 diff=-2023234 stddev=50000.000
+Resetting prediction variance 144.710: freq=49922814 diff=-1789085 stddev=50000.000
+Resetting prediction variance 145.695: freq=49920746 diff=-1573356 stddev=50000.000
+Resetting prediction variance 146.679: freq=49918931 diff=-1368750 stddev=50000.000
+Resetting prediction variance 147.664: freq=49917355 diff=-1183276 stddev=50000.000
+Resetting prediction variance 148.648: freq=49915994 diff=-1004855 stddev=50000.000
+Resetting prediction variance 149.633: freq=49914841 diff=-850307 stddev=50000.000
+Resetting prediction variance 150.618: freq=49913866 diff=-699417 stddev=50000.000
+Resetting prediction variance 151.602: freq=49913065 diff=-558051 stddev=50000.000
+Resetting prediction variance 152.587: freq=49912427 diff=-428449 stddev=50000.000
+Resetting prediction variance 153.571: freq=49911938 diff=-305451 stddev=50000.000
+Running Command {update_git_script}...:
+Klipper-backup is up to date
+
+
